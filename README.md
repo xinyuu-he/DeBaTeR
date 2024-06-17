@@ -2,7 +2,7 @@
 
 ## Updated experimental results
 
-We add **three new baselines** to the tables: LightGCN (a model without CL), Bert4Rec (state-of-the-art sequential model for recommendation), and CL4SRec (a follow-up work of SaSRec). We also include **standard deviations** in the updated tables.
+We add **three new baselines** to the tables: LightGCN (a model without CL), Bert4Rec (state-of-the-art sequential model for recommendation), and CL4SRec (a follow-up work of SaSRec). We also include **standard deviations** (in parentheses) in the updated tables.
 
 ![](exp_vanilla.png)
 
