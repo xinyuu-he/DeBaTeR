@@ -21,10 +21,10 @@ Although Bert4Rec outperforms our model on Amazon dataset, it performs much wors
 
 ## Additional Ablation Study on ML-1M
 
-<img src="./abla_vanilla.png" style="zoom:40%" />
+<img src="abla-100k.png" style="zoom:53%" />
 
-<img src="./abla_noisy.png" style="zoom:40%" />
+<img src="abla_vanilla.png" style="zoom:40%" />
 
-<img src="./abla-100k.png" style="zoom:53%" />
+<img src="abla_noisy.png" style="zoom:40%" />
 
-The pattern generally aligns with the ablation study on ML-100K. It can be seen that removing time information from $R(\cdot)$ or $W(\cdot)$ will lead to less robustness against noise, while removing time information from $\mathcal{L}, p$ lead to a more robust algorithm while slightly affecting model performance. However, a new observation on ML-1M shows that time information in $W(\cdot)$ and $\mathcal{L}, p​$ combined will tend to have higher NDCG but not precision and recall, which aligns with the observation that DeBaTeR-L​ is more suitable for ranking tasks.
+The pattern generally aligns with the ablation study on ML-100K. It can be seen that removing time information from $R(\cdot)$ or $W(\cdot)$ will lead to less robustness against noise, while removing time information from $\mathcal{L}, p$ lead to a more robust algorithm while slightly affecting model performance. However, a new observation on ML-1M shows that time information in $W(\cdot)$ and $\mathcal{L}, p$ combined will tend to have higher NDCG but not precision and recall, which aligns with the observation that DeBaTeR-L​ is more suitable for ranking tasks.
