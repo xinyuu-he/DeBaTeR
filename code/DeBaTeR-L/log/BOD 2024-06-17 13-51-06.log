@@ -1,0 +1,17 @@
+2024-06-17 13:51:06,825 - BOD - INFO - ### model configuration ###
+2024-06-17 13:51:06,825 - BOD - INFO - training.set=./dataset/ml-100k/train.txt
+2024-06-17 13:51:06,825 - BOD - INFO - test.set=./dataset/ml-100k/test.txt
+2024-06-17 13:51:06,825 - BOD - INFO - temporal.data=./dataset/ml-100k
+2024-06-17 13:51:06,825 - BOD - INFO - dataset.name=ml-100k
+2024-06-17 13:51:06,825 - BOD - INFO - model.name=BOD
+2024-06-17 13:51:06,825 - BOD - INFO - model.type=graph
+2024-06-17 13:51:06,825 - BOD - INFO - item.ranking=-topN 10, 20
+2024-06-17 13:51:06,825 - BOD - INFO - embbedding.size=64
+2024-06-17 13:51:06,825 - BOD - INFO - num.max.epoch=100
+2024-06-17 13:51:06,825 - BOD - INFO - batch_size=64
+2024-06-17 13:51:06,825 - BOD - INFO - learnRate=1e-4
+2024-06-17 13:51:06,825 - BOD - INFO - reg.lambda=0.0001
+2024-06-17 13:51:06,825 - BOD - INFO - trainmodel=SimGCL
+2024-06-17 13:51:06,825 - BOD - INFO - generator=VAE
+2024-06-17 13:51:06,825 - BOD - INFO - GM_AU=-generator_lr 0.0001 -generator_reg 0.0001 -generator_emb_size 64 -outer_loop 1 -inner_loop 1 -weight_bpr 1 -weight_alignment 1 -weight_uniformity 0.5
+2024-06-17 13:51:06,825 - BOD - INFO - output.setup=-dir ./results/
