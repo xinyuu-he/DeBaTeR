@@ -22,9 +22,7 @@ cd DeBaTeR-L
 python main.py --d=ml-100k
 ```
 
-Processed datasets are available at ./DeBaTeR-A/dataset and ./DeBaTeR-L/dataset.
-Preprocessing codes are available at ./DeBaTeR-A/dataset/[dataset name]/[dataset name].py
-Code for generating noisy dataset is available at ./DeBaTeR-A/dataset/graph_perturb.py
+Processed datasets are available at ./DeBaTeR-A/dataset and ./DeBaTeR-L/dataset. Preprocessing codes are available at ./DeBaTeR-A/dataset/[dataset name]/[dataset name].py.
 
 Raw data can be downloaded at:
 
