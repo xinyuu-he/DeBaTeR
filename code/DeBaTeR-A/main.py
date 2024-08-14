@@ -30,7 +30,7 @@ parser.add_argument('--d', type=str, help='dataset name')
 args = parser.parse_args()
 
 dataset = args.d
-if dataset == 'ml-100k':
+if (dataset == 'ml-100k') or (dataset == 'ml-100k-p'):
     config.batch_size = 64
     config.lr = 1e-4
 device = 'cuda:0' if torch.cuda.is_available() else 'cpu'

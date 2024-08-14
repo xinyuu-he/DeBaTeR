@@ -35,8 +35,8 @@ if __name__ == '__main__':
         conf.config['test.set'] = './dataset/{}/test.txt'.format(args.d)
         conf.config['temporal.data'] = './dataset/{}'.format(args.d)
         conf.config['dataset.name'] = args.d
-        conf.config['batch_size'] = '64' if args.d == 'ml-100k' else '2048'
-        conf.config['learnRate'] = '1e-4' if args.d == 'ml-100k' else '1e-3'
+        conf.config['batch_size'] = '64' if ((args.d == 'ml-100k') or (args.d == 'ml-100k-p'))  else '2048'
+        conf.config['learnRate'] = '1e-4' if ((args.d == 'ml-100k') or (args.d == 'ml-100k-p')) else '1e-3'
         if args.d == 'ml-100k':
             conf.config['GM_AU'] = conf.config['GM_AU'].replace('generator_lr 0.001', 'generator_lr 0.0001')
     else:
