@@ -1,10 +1,12 @@
 # DeBaTeR
 
+This is the official code repository for paper [DeBaTeR: Denoising Bipartite Temporal Graph for Recommendation](https://arxiv.org/abs/2411.09181).
+
 Model training, data processing codes and processed data are available in this directory.
 
 Available dataset options are: ml-100k, ml-1m, yelp, amazon (and their perturbed/noisy version, e.g., yelp-p)
 
-Note: DeBaTeR-L is implemented based on BOD code repository ([BOD\]](https://github.com/CoderWZW/BOD)), and this BOD repository is implemented based on open-source SELFRec repository ([SELFRec](https://github.com/Coder-Yu/SELFRec)), which we also use for running a couple of baselines (e.g., SimGCL, NCL, Bert4Rec, etc)
+Note: DeBaTeR-L is implemented based on BOD code repository ([BOD](https://github.com/CoderWZW/BOD)), and this BOD repository is implemented based on open-source SELFRec repository ([SELFRec](https://github.com/Coder-Yu/SELFRec)), which we also use for running a couple of baselines (e.g., SimGCL, NCL, Bert4Rec, etc)
 
 To run DeBaTeR-A on ml-100k, for example:
 
